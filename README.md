@@ -8,5 +8,5 @@ from ztm_parser import parse_file, get_connections
 
 path = 'path\to\your\file.TXT'
 ztm_data = parse_file(path)
-levels = get_connections(ztm_data)
+line_type_graphs = get_connections(ztm_data)
 ```
