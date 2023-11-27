@@ -221,7 +221,7 @@ def parse_section(section_id, section_length, nextline, verbose=False):
                 x[:17],
                 x[19:25],
                 x[26:28],
-                x[30:34],
+                x[29:34].strip(),
                 x[36:].replace(" ", ""),
             ]
             for j in range(sub_len):
